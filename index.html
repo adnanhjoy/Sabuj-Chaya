@@ -15,7 +15,7 @@
     <!-- Header Start -->
     <header>
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
             <div class="container">
                 <a class="navbar-brand" href="#">সবুজ ছায়া</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,25 +23,25 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse navbar-text" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">হোম</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ডোনার খুজুন</a>
+                            <a class="nav-link" href="#search-donor">ডোনার খুজুন</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">কার্যাবলী</a>
+                            <a class="nav-link" href="#our-work">কার্যাবলী</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ব্লগ</a>
+                            <a class="nav-link" href="#blog">ব্লগ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">আমাদের সম্পর্কে</a>
+                            <a class="nav-link" href="#about-us">আমাদের সম্পর্কে</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">যোগাযোগ</a>
+                            <a class="nav-link" href="#contact-us">যোগাযোগ</a>
                         </li>
                     </ul>
 
@@ -87,7 +87,7 @@
     <main class="container">
         <!-- Start Donor Search -->
         <section class="my-5">
-            <h2 class="text-center fw-bold">ডোনার খুজুন</h2>
+            <h2 class="text-center fw-bold" id="search-donor">ডোনার খুজুন</h2>
             <div class="row my-5">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <label for="" class="form-label">রক্তের গ্রুপ</label>
@@ -198,7 +198,7 @@
 
         <!-- Working Type Start -->
         <section class="my-5">
-            <h2 class="text-center fw-bold my-5">আমাদের কার্যাবলী</h2>
+            <h2 class="text-center fw-bold my-5" id="our-work">আমাদের কার্যাবলী</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 workstation">
                 <div class="col">
                     <div class="card shadow-lg">
@@ -246,7 +246,7 @@
 
 
         <section class="my-5">
-            <h2 class="text-center my-5 fw-bold">ব্লগ</h2>
+            <h2 class="text-center my-5 fw-bold" id="blog">ব্লগ</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
@@ -345,7 +345,7 @@
 
         <!-- About Us Start -->
         <section class="my-5">
-            <h2 class="text-center fw-bold my-5">আমাদের সম্পর্কে</h2>
+            <h2 class="text-center fw-bold my-5" id="about-us">আমাদের সম্পর্কে</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="accordion" id="accordionExample">
@@ -456,7 +456,61 @@
             </div>
         </section>
         <!-- About Us End -->
+
+        <!-- Contact Us Start -->
+        <section class="my-5">
+            <h2 class="my-5 text-center fw-bold" id="contact-us">যোগাযোগ</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="my-5 d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29207.28615910244!2d90.42685749999998!3d23.7861916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1676547364775!5m2!1sen!2sbd"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </section>
+        <!-- Contact Us end -->
     </main>
+
+
+    <!-- Footer Area Start -->
+    <footer class="mt-5 bg-black container-fluid">
+        <div class="row text-white p-5">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, molestias dolor. Corporis placeat
+                    perferendis expedita consequatur eligendi nisi natus voluptate magni aut distinctio ratione, id
+                    minima aspernatur possimus animi tenetur.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi alias dolores fugiat excepturi
+                    voluptatibus hic quisquam ipsam adipisci illo aperiam vel temporibus rerum, facilis cupiditate
+                    aliquid ad qui nemo autem.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h4>ডোনেশন পার্টনার</h4>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <p class="text-white text-center">copyright Adnan Hossain || 2023</p>
+        </div>
+
+    </footer>
+    <!-- Footer Area End -->
 
 
 
