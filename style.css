@@ -1,6 +1,18 @@
+.header-logo {
+    height: 50px;
+}
+
 .navbar-text ul li {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.navbar-text ul li a {
+    color: #ffffff;
+}
+
+.navbar-text ul li a:hover {
+    color: #61c002;
 }
 
 .slider-image img {
@@ -17,6 +29,11 @@
 }
 
 @media screen and (max-width: 576px) {
+    .slider-image img {
+        width: 100%;
+        height: 300px;
+    }
+
     .workstation img {
         height: 300px;
     }
