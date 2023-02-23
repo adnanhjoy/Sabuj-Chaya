@@ -16,12 +16,12 @@
 }
 
 .slider-top {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .slider-image img {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .workstation img {
@@ -30,6 +30,12 @@
 
 .workstation-body {
     height: 200px;
+}
+
+.contact-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/contact-cover.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 @media screen and (max-width: 576px) {
@@ -44,5 +50,12 @@
 
     .workstation-body {
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .slider-image img {
+        width: 100%;
+        height: 400px;
     }
 }
